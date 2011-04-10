@@ -1,3 +1,9 @@
+PATH
+  remote: divalife
+  specs:
+    divalife (1.0.0)
+      spree_core (>= 0.40.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -141,6 +147,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  divalife!
   mysql2
   rails (= 3.0.5)
   spree

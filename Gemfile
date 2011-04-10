@@ -30,3 +30,4 @@ gem 'spree'
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem "divalife", :path => "divalife", :require => "divalife"

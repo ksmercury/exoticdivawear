@@ -105,7 +105,7 @@ form div.right.w30 {
 
 
 .member-list {
-  list-style:none;margin:0;margin-bottom:1em;
+  list-style:none;margin:0;
 }
 
 
@@ -135,6 +135,11 @@ form div.right.w30 {
     display: block; }
     .field label span.label {
       display: block; }
+      
+      
+
+
+
 
 fieldset {
   margin-bottom: 1em;

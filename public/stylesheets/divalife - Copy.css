@@ -1,0 +1,300 @@
+
+
+
+/*  The changes in divalife.css will override the setting in screen.css          */
+
+/*  changes to homepage           */
+body {
+ margin-top: 15px;
+ background: #111111 url(../images/stripclub.jpg) no-repeat;
+ 
+ 
+	
+}
+      
+
+/*  changes to footer          */
+a {
+  text-decoration: underline;
+  color: #B2A100;
+}
+
+
+.price.selling { color: #8484fb; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-listing li:hover a.info {
+  background: #1b1b1b url(../images/bottom_shine.png) bottom left repeat-x;
+  color: #FEBFBF;
+}
+
+
+
+
+
+#header {
+  position: relative;
+  color: #FF0000;
+  clear: both;
+}
+#header a { color: #FF0000; }
+#header a:hover { color: #FF0000; }
+
+/* Goto  C:\jose\projects\exoticdivawear\app\views\layouts\spree_application.html.erb and delete <%= logo %>  */
+#footer_logo {
+ position: left;
+width:112px;
+height:112px;
+margin:-50px 0px 0px 420px;
+/*border:1px solid #8484fb;*/
+background: #fff url(../images/logo.png) no-repeat top left;
+
+} 
+
+
+#footer_logo:hover { background-image: url(../images/logo_hover.png ) !important;
+width:224px;
+height:224px;
+}
+
+#footer_logo:hover { background-position: 0 0px !important;
+}
+
+
+#footer {
+  padding-top: 6em;
+  clear: both;
+}
+#footer div.left { width: 37%; }
+#footer div.right {
+  width: 63%;
+  text-align: right;
+}
+
+
+
+
+
+/* hompage thumbnails background and border*/
+
+.product-listing li a.info {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 5px;
+  width: 150px;
+  min-height: 60px;
+  background: #464343 url(../images/shadow_top.png) 0px -35px repeat-x;
+  border-top: 1px solid #5D5DAF;
+}
+
+
+
+.product-listing li a {
+  display: block;
+  text-decoration: none;
+  color: #8484fb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigation-list li a {
+  cursor: pointer !important;
+  text-decoration: none;
+  color: #C3C3FE;
+  display: block;
+  line-height: 2.5em;
+  padding-left: 20px;
+  width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navigation-list a.root {
+  color: #8484fb;
+  font-size: 1.5em;
+  text-indent: -5px;
+  line-height: 2.2em;
+}
+
+
+
+
+#sidebar {
+  display: inline;
+  float: left;
+  width: 150px;
+  margin-right: 10px;
+  padding-right: 24px;
+  margin-right: 25px;
+  border-right: 1px solid #8484fb;
+ 
+}
+
+hr.space {
+  background: #dddddd;
+  color: #8484fb;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 0.1em;
+  margin: 0 0 1.45em;
+  border: none;
+  background: #8484fb;
+  color: #8484fb;
+
+}
+  
+  
+  p {
+  margin: 0 0 1.5em; 
+  color: #8484fb;
+  }
+  p img.left {
+    display: inline;
+    float: left;
+    margin: 1.5em 1.5em 1.5em 0;
+    padding: 0; }
+  p img.right {
+    display: inline;
+    float: right;
+    margin: 1.5em 0 1.5em 1.5em;
+    padding: 0; }
+	
+	
+tr.even td { background: #8484fb; }
+	
+table#cart tr td {
+  border-bottom: 1px solid #8484fb;
+  padding: 1em 0;
+}
+table#cart tr#none td { border-bottom: none; }
+
+
+.price.diff {
+  font-style: italic;
+  font-weight: normal;
+  color: #FFCC00;
+}
+
+
+dl.table-display dt {
+  float: left;
+  margin: 0;
+  padding: 5px;
+  border-top: 1px solid #7B7373;
+}
+dl.table-display dd {
+  float: left;
+  margin: 0;
+  padding: 5px;
+  border-top: 1px solid #7B7373;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  color: #80C8FE;
+  font-size: 75%;
+}
+
+#product-description {
+  display: inline;
+  float: left;
+  width: 310px;
+  margin-right: 10px;
+  padding-right: 24px;
+  margin-right: 25px;
+  border-right: 1px solid #9191FE;
+}
+
+button, a.button, input.button {
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  background: #FED9BF url(../images/buttons/bg-button.png) center left repeat-x !important;
+  border-style: solid;
+  border-width: 1px !important;
+  border-color: #FED9BF #FED9BF #FED9BF #FED9BF !important;
+  -moz-outline-radius: 0.3em;
+  color: #33FF00;
+  display: inline-block;
+  font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+  font-size: 1.1em !important;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0px;
+  overflow: visible;
+  padding: 10px 17px;
+  text-decoration: none;
+  text-transform: lowercase;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+
+ul.thumbnails li {
+  float: left;
+  margin-right: 5px;
+  padding: 3px;
+  border: 1px solid #FE80DF;
+  min-height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+ul.thumbnails li:hover { border-color: #FEDFF7; }
+ul.thumbnails li.selected { border-color: #FEBFEF; }
+
+
+h1 {
+  font-weight: normal;
+  color: #D580FE;
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-weight: normal;
+  color: #80FFFE;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-weight: normal;
+  color: #6BB200;
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
